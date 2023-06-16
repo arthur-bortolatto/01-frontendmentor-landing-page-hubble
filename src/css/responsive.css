@@ -24,7 +24,14 @@
     }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 1280px) {
+    .container {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+
+@media (max-width: 768px) {
     body {
         background-image: url(../images/bg-mobile.svg);
     }
