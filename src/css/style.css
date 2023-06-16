@@ -1,0 +1,93 @@
+body {
+    background: var(--primary) url(../images/bg-desktop.svg) no-repeat center;
+    background-size: auto 100vh;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    height: 100vh;
+    display: grid;
+}
+
+.header img {
+    max-width: 270px;
+    max-height: auto;
+    padding-left: 75px;
+    padding-top: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+.container img {
+    max-width: auto;
+    max-height: auto;
+}
+
+.container .content {
+    display: flex;
+    flex-direction: column;
+    max-width: 470px;
+    padding-bottom: 110px;
+}
+
+.container .content h1 {
+    font-size: 35px;
+    padding-bottom: 18px;
+}
+
+.container .content p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 25px;
+}
+
+.container .content button {
+    background-color: #fff;
+    border: none;
+    border-radius: 50px;
+    color: var(--primary);
+    padding: 14px 60px;
+    font-size: 16px;
+    width: fit-content;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.217);
+    transition: 0.4s ease-in-out;
+}
+
+.container .content button:hover {
+    background-color: var(--hover);
+    color: #fff;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 170px;
+    padding-bottom: 35px;
+    gap: 14.5px;
+    font-size: 20px;
+}
+
+.footer a {
+    color: inherit;
+}
+
+.footer .circulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border: #fff solid 1px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.footer .circulo:hover {
+    color: var(--hover);
+    border: var(--hover) solid 1px;
+}

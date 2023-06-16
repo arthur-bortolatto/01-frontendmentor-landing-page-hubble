@@ -1,0 +1,80 @@
+@media (max-width: 1024px) {
+    .header img {
+        padding-left: 45px;
+    }
+
+    .container img {
+        max-width: 400px;
+    }
+
+    .container .content {
+        max-width: 300px;
+    }
+
+    .container .content h1 {
+        font-size: 32px;
+    }
+
+    .container .content p {
+        font-size: 14px;
+    }
+
+    .footer {
+        padding-right: 140px;
+    }
+}
+
+@media (max-width: 750px) {
+    body {
+        background-image: url(../images/bg-mobile.svg);
+    }
+
+    .header img {
+        padding-left: 30px;
+        padding-top: 30px;
+        max-width: 200px;
+    }
+    .container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .container .content {
+        max-width: 400px;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 0;
+    }
+
+    .container .content button {
+        padding: 14px 100px;
+    }
+
+    .footer {
+        padding: 0 0 0 15px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 450px) {
+    .container {
+        padding: 20px 35px;
+    }
+
+    .container img,
+    .content {
+        max-width: 250px;
+    }
+
+    .footer {
+        padding-bottom: 25px;
+        align-items: center;
+        font-size: 14px;
+    }
+
+    .footer .circulo {
+        height: 30px;
+        width: 30px;
+    }
+}
